@@ -8,6 +8,8 @@ Repositório de um dashboard feito com Bootstrap 5
 
 Este repositório contém um dashboard administrativo simples, desenvolvido com Bootstrap 5. Ele oferece um layout básico com uma barra lateral, uma navbar fixa e uma área principal para exibição de dados e gráficos. O objetivo é fornecer um ponto de partida para a criação de interfaces administrativas mais complexas.
 
+🔗 Acesse o projeto: [https://jaojogadez.github.io/admin-dashboard/]
+
 ## Funcionalidades
 
 - **Layout Responsivo:** Desenvolvido com Bootstrap 5 para garantir compatibilidade em diferentes tamanhos de tela.
