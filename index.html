@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Admin Dashboard Bootstrap</title>
+    <title>Admin Dashboard</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper border p-3">
+    <div class="wrapper">
+        <!-- Sidebar -->
       <aside id="sidebar">
         <div class="d-flex justify-content-between p-4">
           <div class="sidebar-logo">
@@ -127,13 +128,14 @@
           </a>
         </div>
       </aside>
-      <main class="main border">
+      <main class="main">
+        <!-- Fixed Navbar -->
         <nav class="navbar navbar-expand px-4 py-3 shadow-sm">
           <form action="#" class="d-none d-sm-inline-block">
             <div class="input-group input-group-navbar">
               <input
                 type="text"
-                class="form-control rounded-3 pe-0"
+                class="form-control border-0 rounded-0 pe-0"
                 placeholder="Search..."
                 aria-label="Search"
               />
@@ -173,11 +175,13 @@
             </ul>
           </div>
         </nav>
-        <section class="content px-3 py-4 border">
+        <!-- Dashboard -->
+        <section class="content px-3 py-4">
           <div class="container-fluid">
             <div class="mb-3">
               <h1 class="h3 fw-bold fs-4 mb-3">Admin Dashboard</h1>
-              <div class="row border">
+              <!-- Cards -->
+              <div class="row">
                 <div class="col-12 col-md-4">
                   <div class="card shadow">
                     <div class="card-body py-4">
@@ -215,12 +219,14 @@
                   </div>
                 </div>
               </div>
-              <div class="row border">
+              <!-- Table And Chart -->
+              <div class="row">
                 <div class="col-12 col-md-7">
                   <h1 class="h3 fw-bold fs-4 my-3">User</h1>
+                  <!-- Table -->
                   <table class="table table-striped shadow">
                     <thead>
-                      <tr>
+                      <tr class="highlight">
                         <th scope="col">#</th>
                         <th scope="col">First</th>
                         <th scope="col">Last</th>
@@ -248,6 +254,7 @@
                     </tbody>
                   </table>
                 </div>
+                <!-- Chart -->
                 <div class="col-12 col-md-5">
                     <h3 class="fw-bold fs-4 my-3">
                         Reports Overview
@@ -258,24 +265,25 @@
             </div>
           </div>
         </section>
+        <!-- Footer -->
         <footer class="footer">
             <div class="container-fluid">
                 <div class="row text-body-secondary">
                     <div class="col-6 text-start">
-                        <a href="#" class="text-body-secondary">
+                        <a href="#" class="text-secondary">
                             <strong>jaoCodaDez</strong>
                         </a>
                     </div>
                     <div class="col-6 text-end text-body-secondary d-none d-md-block">
                         <ul class="list-inline mb-0">
                             <li class="list-inline-item">
-                                <a href="#" class="text-body-secondary">Contact</a>
+                                <a href="#" class="text-secondary">Contact</a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" class="text-body-secondary">About</a>
+                                <a href="#" class="text-secondary">About</a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" class="text-body-secondary">Terms & Conditions</a>
+                                <a href="#" class="text-secondary">Terms & Conditions</a>
                             </li>
                         </ul>
                     </div>
